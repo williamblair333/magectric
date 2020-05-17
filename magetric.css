@@ -1,0 +1,72 @@
+header, nav, main, footer { display: block; }
+
+body {
+	margin:0;
+
+}	
+
+
+
+#wrapper {
+	padding:20px;
+	margin-top:30px;
+	background-color:#E0FFFF;
+	height:1500px;
+	
+}
+
+h1 {
+
+	color: #F8F8FF;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 30px;
+	padding-left: 220px;
+	line-height: 200%;
+	background-image: url(images/lightning_ref.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00BFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  background-color: #00BFFF;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1E90FF;
+}
+
+.active {
+  background-color: #0000CD;
+}
+
+footer {
+	background-color: #00BFFF;
+	color: #F8F8FF;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
