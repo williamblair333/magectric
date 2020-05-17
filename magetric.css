@@ -4,8 +4,12 @@ body {
 	margin:0;
 
 }	
-
-
+.floatright { float: right;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	background-size: 100%;
+	height: 250px;
+}
 
 #wrapper {
 	padding:20px;
@@ -13,6 +17,13 @@ body {
 	background-color:#E0FFFF;
 	height:1500px;
 	
+}
+
+#contactus {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Aiga_mail_inverted.svg/800px-Aiga_mail_inverted.svg.png);
+	background-size: 100% 100%;
+	height: 125px;
+	width: 125px;
 }
 
 h1 {
